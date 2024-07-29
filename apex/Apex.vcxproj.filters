@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mapper">
+      <UniqueIdentifier>{60440dd7-a5cc-41de-a42c-2f2b6a73d851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entities">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="entities\ImGui">
+      <UniqueIdentifier>{aa04a886-1765-4e00-ab8e-306d256d431b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.h">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_demo.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_draw.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_impl_dx9.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_impl_dx11.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_impl_win32.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_tables.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Fucking ImGui\imgui_widgets.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_toggle.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_toggle_palette.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_toggle_presets.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_toggle_renderer.cpp">
+      <Filter>entities\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="SignatureScanner.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\intel_driver.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\kdmapper.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\portable_executable.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\service.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper\utils.cpp">
+      <Filter>mapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Driver.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="apex.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="structures.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVar.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="target.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowEsp.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imconfig.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imgui.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imgui_impl_dx9.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imgui_impl_dx11.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imgui_impl_win32.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imgui_internal.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imstb_rectpack.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imstb_textedit.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucking ImGui\imstb_truetype.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="simhei.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="candy.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="gradient.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_toggle.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_offset_rect.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_toggle_math.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_toggle_palette.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_toggle_presets.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_toggle_renderer.h">
+      <Filter>entities\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="mapdriver.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="shellcode.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureScanner.h">
+      <Filter>entities</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\intel_driver.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\intel_driver_resource.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\kdmapper.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\nt.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\portable_executable.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\service.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper\utils.hpp">
+      <Filter>mapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>entities</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>entities</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
